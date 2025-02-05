@@ -1,0 +1,87 @@
+.icon {
+    position: absolute;
+    /* top: px;   */
+    right: 15px; 
+    font-size: 24px; 
+    cursor: pointer;
+    color: rgb(234, 194, 62); 
+    z-index: 1000;
+}
+
+.profile-img {
+    max-width: 50%;  /* Adjust the image size */
+    height: 500px;
+}
+
+.navbar {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.navbar-nav .nav-link {
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #f0ad4e; /* Bootstrap warning color */
+}
+
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+.resume-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0073b1; /* LinkedIn blue */
+    text-decoration: none;
+}
+
+footer a {
+    color: #0073b1;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;  /* Adjust to control width */
+    margin: auto;
+    background-color: #F4E1C1; /* Light beige background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hobbies-container{
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Add some spacing between the sections */
+    text-align: center;
+}
+
+.card-img-top {
+    height: 200px; /* Adjust this value to fit your desired height */
+    object-fit: cover; /* Ensures the image covers the space without distortion */
+}
+
+.text {
+    max-width: 50%;
+    padding: 20px;
+}
+
+.carousel-inner .carousel-item img {
+    width: 80%; /* Adjusts size to be smaller */
+    height: 500px; /* Ensures all images have the same height */
+    object-fit: cover; /* Ensures the images fill the area while maintaining aspect ratio */
+    margin: 0 auto; /* Centers the images */
+}
